@@ -1,0 +1,22 @@
+{
+  "name": "huellitas2",
+  "version": "1.0.0",
+  "description": "desarrollo web project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicoleBarra/SalvandoHuellitas.git"
+  },
+  "keywords": [
+    "bootstrap"
+  ],
+  "author": "Salvando Huellitas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicoleBarra/SalvandoHuellitas/issues"
+  },
+  "homepage": "https://github.com/NicoleBarra/SalvandoHuellitas#readme"
+}
