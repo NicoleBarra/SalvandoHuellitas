@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/* E s t i l o s __ P a d r e*/
+@import url(/Users/gerardoarturomiranda/Documents/DesarrolloDeAplicacionesWeb/SalvandoHuellitas/public/css/styles.css);
+/* E s t i l o s __ B o d y */
+/* T A G ' S  __ E N __ M O D I F I C A C I Ó N
+♥ <body>
+♥ <h1>
+*/
+/* C O L O R E S __ S A L V A N D O __ H U E L L I T A S*/
+/* E D I C I Ó N      B O D Y*/
+body {
+  font-family: 'Josefin Sans';
+  font-weight: 200;
+}
+
+/* E D I C I Ó N      H 1*/
+h1 {
+  font-family: 'Josefin Sans';
+  color: #fadbc7;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+/* E D I C I Ó N      H 2*/
+h2 {
+  font-family: 'Josefin Sans';
+  color: #ffcc99;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+/* E D I C I Ó N      H 3*/
+h3 {
+  font-family: 'Josefin Sans';
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+/* E D I C I Ó N      H 5*/
+h5 {
+  font-family: 'Josefin Sans';
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+/* E s t i l o s __ N a v B a r */
+/* T A G ' S  __ E N __ M O D I F I C A C I Ó N
+♥ <a>
+*/
+/* C O L O R E S __ S A L V A N D O __ H U E L L I T A S*/
+/* E D I C I Ó N      A*/
+a {
+  font-family: 'Josefin Sans';
+  letter-spacing: 3px;
+}
+
+/* E s t i l o s __ M a s t e r H e a d */
+/* T A G ' S  __ E N __ M O D I F I C A C I Ó N
+♥ h1 (Hover)
+
+C L A S E S __ E N __ M O  D I F I C A C I Ó N
+♡ .masthead
+♡ .divider-custom-icon
+*/
+/* C O L O R E S __ S A L V A N D O __ H U E L L I T A S*/
+/* E D I C I Ó N    M A S T  H E A  D ___  D I V I D E R - C U S  T O M - I C O N*/
+.masthead {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.masthead:hover h1 {
+  color: black;
+  -webkit-transition: color 3s ease-out;
+  transition: color 3s ease-out;
+}
+
+.masthead:hover .divider-custom-icon {
+  font-size: 50px;
+  -webkit-transition: font-size .5s ease-out;
+  transition: font-size .5s ease-out;
+}
+
+/* E s t i l o s __ S e c c i ó n _ P e r d i d o s Y E n c o n t r a d o s */
+/*
+C L A S E S __ E N __ M O  D I F I C A C I Ó N
+♡ .page-section
+♡ .divider-custom-icon
+*/
+/* C O L O R E S __ S A L V A N D O __ H U E L L I T A S*/
+/* E D I C I Ó N    P A G E S E C T I O N ___  D I V I D E R - C U S  T O M - I C O N*/
+.page-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page-section:hover h3 {
+  color: red;
+  -webkit-transition: color .5s ease-out;
+  transition: color .5s ease-out;
+}
+
+.page-section:hover .divider-custom-icon {
+  font-size: 50px;
+  -webkit-transition: font-size .5s ease-out;
+  transition: font-size .5s ease-out;
+}
+/*# sourceMappingURL=styles_2.css.map */
