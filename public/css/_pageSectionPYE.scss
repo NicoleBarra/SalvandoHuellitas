@@ -1,0 +1,22 @@
+/*
+C L A S E S __ E N __ M O  D I F I C A C I Ó N
+♡ .page-section
+♡ .divider-custom-icon
+*/
+/* C O L O R E S __ S A L V A N D O __ H U E L L I T A S*/
+$colorPrimarioSalvandoHuellitas: rgb(250, 219, 199) ;
+$colorSecundarioSalvandoHuellitas: rgb(255, 204, 153) ;
+/* E D I C I Ó N    P A G E S E C T I O N ___  D I V I D E R - C U S  T O M - I C O N*/
+.page-section {
+    display: flex;
+    &:hover {
+        h3 {
+             color: red; 
+             transition: color .5s ease-out;
+        }
+        .divider-custom-icon {
+                font-size: 50px;
+                transition: font-size .5s ease-out;
+        }
+    }
+}
