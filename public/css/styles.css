@@ -15179,48 +15179,6 @@ a {
   font-family: 'Josefin Sans';
   letter-spacing: 3px; }
 
-navbar-toggler {
-  padding: 0.25rem 0.75rem;
-  font-size: 1.25rem;
-  line-height: 1;
-  background-color: transparent;
-  border: 1px solid transparent;
-  border-radius: 0.25rem; }
-  navbar-toggler:hover, navbar-toggler:focus {
-    text-decoration: none; }
-
-.navbar-collapse {
-  display: flex !important;
-  flex-basis: auto; }
-
-.navbar-nav {
-  display: flex;
-  flex-direction: column;
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none; }
-  .navbar-nav .nav-link {
-    padding-right: 0;
-    padding-left: 0; }
-  .navbar-nav .dropdown-menu {
-    position: static;
-    float: none; }
-
-.navbar-nav {
-  display: flex;
-  flex-direction: column;
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none; }
-
-.navbar-nav .nav-link {
-  padding-right: 0;
-  padding-left: 0; }
-
-.navbar-nav .dropdown-menu {
-  position: static;
-  float: none; }
-
 /* E s t i l o s __ M a s t e r H e a d */
 /* T A G ' S  __ E N __ M O D I F I C A C I Ó N
 ♥ h1 (Hover)
