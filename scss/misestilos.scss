@@ -3919,6 +3919,10 @@ input[type=button].btn-block {
   cursor: default;
 }
 
+.nav-item{
+  text-align: center;
+}
+
 .nav-tabs {
   border-bottom: 0.125rem solid #dee2e6;
 }
@@ -4696,6 +4700,11 @@ a.badge:hover, a.badge:focus {
 .btn .badge {
   position: relative;
   top: -1px;
+}
+
+.btn-center{
+  align-items: center;
+  text-align: center; 
 }
 
 .badge-pill {
