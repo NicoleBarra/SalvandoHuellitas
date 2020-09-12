@@ -2,9 +2,8 @@
 ♥ <body>
 ♥ <h1>
 */
-/* C O L O R E S __ S A L V A N D O __ H U E L L I T A S*/
-$colorPrimarioSalvandoHuellitas: rgb(250, 219, 199) ;
-$colorSecundarioSalvandoHuellitas: rgb(255, 204, 153) ;
+/* E s t i l o s __ V a r i a b l e s */
+@import "variables";
 /* E D I C I Ó N      B O D Y*/
 body {
     font-family: 'Josefin Sans';
@@ -36,4 +35,5 @@ h5 {
     font-weight: 500;
     letter-spacing: 2px;
 }
+
 
