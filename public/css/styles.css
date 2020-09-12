@@ -15133,7 +15133,7 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #3178be;
+  background-color: #2c3e50;
   color: #fff; }
 
 .copyright {
@@ -15144,6 +15144,8 @@ form .row:first-child .floating-label-form-group {
 ♥ <body>
 ♥ <h1>
 */
+/* E s t i l o s __ V a r i a b l e s */
+/* V A R I A B L E S */
 /* C O L O R E S __ S A L V A N D O __ H U E L L I T A S*/
 /* E D I C I Ó N      B O D Y*/
 body {
@@ -15180,6 +15182,8 @@ h5 {
 /* T A G ' S  __ E N __ M O D I F I C A C I Ó N
 ♥ <a>
 */
+/* E s t i l o s __ V a r i a b l e s */
+/* V A R I A B L E S */
 /* C O L O R E S __ S A L V A N D O __ H U E L L I T A S*/
 /* E D I C I Ó N      A*/
 a {
@@ -15194,6 +15198,8 @@ C L A S E S __ E N __ M O  D I F I C A C I Ó N
 ♡ .masthead
 ♡ .divider-custom-icon
 */
+/* E s t i l o s __ V a r i a b l e s */
+/* V A R I A B L E S */
 /* C O L O R E S __ S A L V A N D O __ H U E L L I T A S*/
 /* E D I C I Ó N    M A S T  H E A  D ___  D I V I D E R - C U S  T O M - I C O N*/
 .masthead {
@@ -15211,6 +15217,8 @@ C L A S E S __ E N __ M O  D I F I C A C I Ó N
 ♡ .page-section
 ♡ .divider-custom-icon
 */
+/* E s t i l o s __ V a r i a b l e s */
+/* V A R I A B L E S */
 /* C O L O R E S __ S A L V A N D O __ H U E L L I T A S*/
 /* E D I C I Ó N    P A G E S E C T I O N ___  D I V I D E R - C U S  T O M - I C O N*/
 .page-section {
@@ -15221,3 +15229,18 @@ C L A S E S __ E N __ M O  D I F I C A C I Ó N
   .page-section:hover .divider-custom-icon {
     font-size: 50px;
     transition: font-size .5s ease-out; }
+
+/* E s t i l o s __ F o o t e r */
+/*
+C L A S E S __ E N __ M O  D I F I C A C I Ó N
+♡ .footer
+*/
+/* E s t i l o s __ V a r i a b l e s */
+/* V A R I A B L E S */
+/* C O L O R E S __ S A L V A N D O __ H U E L L I T A S*/
+/* E D I C I Ó N    F O O T E R*/
+.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #c28378;
+  color: #fff; }
