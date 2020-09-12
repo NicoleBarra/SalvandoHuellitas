@@ -9044,20 +9044,20 @@ fieldset:disabled a.btn {
 
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #6b6b6b;
-  border-color: #6b6b6b;
-  box-shadow: 0 0 0 0.2rem rgba(124, 131, 129, 0.5); }
+  background-color: #159a80;
+  border-color: #148f77;
+  box-shadow: 0 0 0 0.2rem rgba(60, 198, 171, 0.5); }
 
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #6b6b6b;
-  border-color: #6b6b6b; }
+  background-color: #1abc9c;
+  border-color: #1abc9c; }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #6b6b6b;
-  border-color: #6b6b6b; }
+  background-color: #148f77;
+  border-color: #12846e; }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
@@ -15175,7 +15175,7 @@ h3 {
 /* E D I C I Ó N      H 5*/
 h5 {
   font-family: 'Josefin Sans';
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 2px; }
 
 /* E s t i l o s __ N a v B a r */
