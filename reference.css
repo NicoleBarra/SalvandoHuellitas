@@ -10056,6 +10056,10 @@ h3 {
   align-content: center;
 }
 
+.btn-center{
+  align-items: center;
+}
+
 .btn-social {
   border-radius: 100%;
   display: inline-flex;
