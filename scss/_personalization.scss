@@ -3,47 +3,52 @@
 ♥ <h1>
 */
 /* E s t i l o s __ V a r i a b l e s */
+$pageSize: 1200;
+
 @import "variables";
+
+@function numero($num: 1){
+    @return $pageSize/6*$num;
+}
+
 /* E D I C I Ó N      B O D Y*/
 body {
     font-family: 'Josefin Sans';
-    font-weight: 200;
+    font-weight: numero();
 }
 /* E D I C I Ó N      H 1*/
 h1 {
     font-family: 'Josefin Sans';
     color: $colorPrimarioSalvandoHuellitas;
-    font-weight: 800;
+    font-weight: numero(4);
     letter-spacing: 2px;
 }
 /* E D I C I Ó N      H 2*/
 h2 {
     font-family: 'Josefin Sans';
     color: $colorSecundarioSalvandoHuellitas;
-    font-weight: 800;
+    font-weight: numero(4);
     letter-spacing: 2px;
 }
 /* E D I C I Ó N      H 3*/
 h3 {
     font-family: 'Josefin Sans';
-    font-weight: 600;
+    font-weight: numero(3);
     letter-spacing: 2px;
 }
 /* E D I C I Ó N      H 5*/
 h5 {
     font-family: 'Josefin Sans';
-    font-weight: 500;
+    font-weight: numero(2);
     letter-spacing: 2px;
 }
-
-
 
 @for $colIndex from 1 through length($my-colors) {
     .degrade_line#{$colIndex} {
       color: unquote(nth($my-colors, $colIndex));
     }
   }
-  
+
 %button_personalization{
     border-radius: 5rem ;
     color: black;
