@@ -36,4 +36,16 @@ h5 {
     letter-spacing: 2px;
 }
 
+%button_personalization{
+    border-radius: 5rem ;
+    color: black;
+    background-color: $colorPrimarioSalvandoHuellitas;
+
+}
+
+
+.btn-primary{
+    @extend %button_personalization;
+}
+
 
