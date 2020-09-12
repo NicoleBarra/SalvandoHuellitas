@@ -21,3 +21,13 @@ C L A S E S __ E N __ M O  D I F I C A C I Ó N
     }
 }
 */
+
+@mixin pawSalvandoHuellitas {
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+.page-section {
+    .divider-custom-icon {
+        @include pawSalvandoHuellitas;
+    }
+}

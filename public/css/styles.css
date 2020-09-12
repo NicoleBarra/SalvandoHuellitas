@@ -15178,6 +15178,7 @@ h5 {
   font-weight: 500;
   letter-spacing: 2px; }
 
+<<<<<<< HEAD
 .degrade_line1 {
   color: #17202A; }
 
@@ -15186,6 +15187,12 @@ h5 {
 
 .degrade_line3 {
   color: #566573; }
+=======
+.btn-primary {
+  border-radius: 5rem;
+  color: black;
+  background-color: #fadbc7; }
+>>>>>>> master
 
 /* E s t i l o s __ N a v B a r */
 /* T A G ' S  __ E N __ M O D I F I C A C I Ó N
@@ -15251,6 +15258,10 @@ C L A S E S __ E N __ M O  D I F I C A C I Ó N
     }
 }
 */
+.page-section .divider-custom-icon {
+  font-size: 50px;
+  padding-bottom: 50px; }
+
 /* E s t i l o s __ F o o t e r */
 /*
 C L A S E S __ E N __ M O  D I F I C A C I Ó N
