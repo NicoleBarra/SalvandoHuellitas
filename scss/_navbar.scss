@@ -9,3 +9,58 @@ a {
     font-family: 'Josefin Sans';
     letter-spacing: 3px;
 }
+
+navbar-toggler {
+    padding: $navbar-toggler-padding-y $navbar-toggler-padding-x;
+    @include font-size($navbar-toggler-font-size);
+    line-height: 1;
+    background-color: transparent; // remove default button style
+    border: $border-width solid transparent; // remove default button style
+    @include border-radius($navbar-toggler-border-radius);
+  
+    @include hover-focus() {
+      text-decoration: none;
+    }
+  }
+
+  .navbar-collapse {
+    display: flex !important; // stylelint-disable-line declaration-no-important
+
+    // Changes flex-bases to auto because of an IE10 bug
+    flex-basis: auto;
+  }
+  
+  
+.navbar-nav {
+    display: flex;
+    flex-direction: column; // cannot use `inherit` to get the `.navbar`s value
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  
+    .nav-link {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  
+    .dropdown-menu {
+      position: static;
+      float: none;
+    }
+  }
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+  .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .navbar-nav .dropdown-menu {
+    position: static;
+    float: none;
+  }
