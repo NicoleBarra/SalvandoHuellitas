@@ -15178,6 +15178,15 @@ h5 {
   font-weight: 500;
   letter-spacing: 2px; }
 
+.degrade_line1 {
+  color: #17202A; }
+
+.degrade_line2 {
+  color: #212F3D; }
+
+.degrade_line3 {
+  color: #566573; }
+
 .btn-primary {
   border-radius: 5rem;
   color: black;
