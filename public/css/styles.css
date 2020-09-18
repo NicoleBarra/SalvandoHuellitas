@@ -15278,7 +15278,7 @@ C L A S E S __ E N __ M O  D I F I C A C I Ó N
     font-style: italic;
     font-weight: 600; }
 
-<<<<<<< HEAD
+
 /* E s t i l o s __ C h a t */
 body, html {
   height: 100%;
@@ -15471,7 +15471,7 @@ body, html {
 @media (max-width: 576px) {
   .contacts_card {
     margin-bottom: 15px !important; } }
-=======
+
 /* E s t i l o s __ C a r d s */
 /* 
 C L A S E S __ E N __ M O  D I F I C A C I Ó N
@@ -15485,4 +15485,3 @@ C L A S E S __ E N __ M O  D I F I C A C I Ó N
 
 .card-body {
   height: 350px !important; }
->>>>>>> 85645e4... Adicion Encontrados y Mt en Crear Top y Cards y  SCCS CARDS
