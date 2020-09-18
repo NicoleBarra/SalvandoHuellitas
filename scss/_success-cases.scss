@@ -1,0 +1,35 @@
+/*
+C L A S E S __ E N __ M O  D I F I C A C I Ó N
+♡ .success-cases
+*/
+/* E s t i l o s __ V a r i a b l e s */
+@import "variables";
+/* E D I C I Ó N    C A R O U S E L*/
+
+.success-cases{
+    h2{
+        color: $success-cases-title !important;
+    }
+    img{
+        height:40em;
+        
+        
+    }
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 7em;
+        right: 0;
+        background-color: $colorPrimarioSalvandoHuellitas;
+        opacity: 0.9;
+        overflow: hidden;
+        width: 50%;
+        height: 0;
+        transition: .5s ease;
+      }
+      
+      .container:hover .overlay {
+        height: 15%;
+      }
+
+}
