@@ -15281,6 +15281,7 @@ C L A S E S __ E N __ M O  D I F I C A C I Ó N
     font-style: italic;
     font-weight: 600; }
 
+
 /* E s t i l o s __ C h a t */
 body, html {
   height: 100%;
@@ -15473,3 +15474,4 @@ body, html {
 @media (max-width: 576px) {
   .contacts_card {
     margin-bottom: 15px !important; } }
+
