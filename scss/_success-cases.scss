@@ -7,6 +7,9 @@ C L A S E S __ E N __ M O  D I F I C A C I Ó N
 /* E D I C I Ó N    C A R O U S E L*/
 
 .success-cases{
+    background: -webkit-linear-gradient(to right, rgb(250, 219, 199), rgb(255, 204, 153), rgb(194, 131, 120));
+    background: linear-gradient(to right, rgb(250, 219, 199), rgb(255, 204, 153), rgb(194, 131, 120));
+
     h2{
         color: $success-cases-title !important;
     }
@@ -23,7 +26,7 @@ C L A S E S __ E N __ M O  D I F I C A C I Ó N
         background-color: $colorPrimarioSalvandoHuellitas;
         opacity: 0.9;
         overflow: hidden;
-        width: 50%;
+        width: 80%;
         height: 0;
         transition: .5s ease;
       }
@@ -31,5 +34,8 @@ C L A S E S __ E N __ M O  D I F I C A C I Ó N
       .container:hover .overlay {
         height: 15%;
       }
-
+      .testimonio{
+          size: 2em;
+          
+      }
 }
