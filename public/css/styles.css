@@ -7335,9 +7335,6 @@ svg {
   overflow: hidden;
   vertical-align: middle; }
 
-table {
-  border-collapse: collapse; }
-
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -15475,3 +15472,16 @@ body, html {
   .contacts_card {
     margin-bottom: 15px !important; } }
 
+/* E s t i l o s __ C a r d s */
+/* 
+C L A S E S __ E N __ M O  D I F I C A C I Ó N
+♡ .cards
+*/
+/* E s t i l o s __ V a r i a b l e s */
+/* V A R I A B L E S */
+/* C O L O R E S __ S A L V A N D O __ H U E L L I T A S*/
+.card {
+  background-color: #ffcc99 !important; }
+
+.card-body {
+  height: 350px !important; }
