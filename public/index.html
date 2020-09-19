@@ -31,10 +31,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#buscaEncuentra">Busca / Encuentra</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#ejemplo">Ejemplo</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="views/petMissing.html">Busca</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="views/petFound.html">Encuentra</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="views/login.html">Login</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" >Sign up</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="views/signup.html">Sign up</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="views/profile.html">Perfil</a></li>
                     </ul>
                 </div>
             </div>
@@ -76,21 +77,21 @@
                 <div class="row">
                     <!-- Portfolio Item 1-->
                     <div class="col-md-6 col-lg-6 mb-5 portfolio-item-color">
-                        <div class="portfolio-item mx-auto" >
+                        <div onclick="location.href='views/petMissing.html';" class="portfolio-item mx-auto" >
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             </div>
                             <h3 class="text-center mb-0">¿Estás Buscando a tu Mascota?</h3>
-                            <img class="img-fluid" src="assets/img/portfolio/Looking.PNG" alt="" />
+                            <a href="views/petMissing.html"><img class="img-fluid" src="assets/img/portfolio/Looking.PNG" alt="" /></a>
                             <h5 class="text-center mb-0">El perrito detective te ayudará a encontrar a tu mascota</h5>
                         </div>
                     </div>
                     <!-- Portfolio Item 2-->
                     <div class="col-md-6 col-lg-6 mb-5 portfolio-item-color">
-                        <div class="portfolio-item mx-auto" >
+                        <div onclick="location.href='views/petFound.html';" class="portfolio-item mx-auto"  >
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             </div>
                             <h3 class="text-center mb-0">¡Acabo de Encontrar uno!</h3>
-                            <img class="img-fluid" src="assets/img/portfolio/Found.PNG" alt="" />
+                            <a href="views/petFound.html"><img class="img-fluid" src="assets/img/portfolio/Found.PNG" alt="" /></a>
                             <h5 class="text-center mb-0">El Gato Gritón te ayudará a registrar una nueva entrada</h5>
                         </div>
                     </div>
