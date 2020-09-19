@@ -38,42 +38,69 @@
                 </div>
             </div>
         </nav>
-        <!-- Masthead-->
         <header class="masthead bg-primary text-center">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">Login</h1>
-                <img class="masthead-avatar mb-5" src="assets/img/AyudandoHuellitas_LogoOscuro.PNG" alt="" />
-                <h3>Bienvenido, ingresa tus datos</h3>
+                <h1 class="masthead-heading text-uppercase mb-0">Perdido</h1>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-paw"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- Masthead Subheading-->
-                <div>
-                    <form name="Login" action="#" method="POST">
-                        <table class= "table-responsive-md" width="800" cellspacing="5" cellpadding="5">
-                            <tr>
-                                <td style="font-size: 20px;">Nombre: </td>
-                                <td><input type="text" name="usuario" id="username" maxlength="100"></td>
-                            </tr>
-                            <tr>
-                                <td style="font-size: 20px;">Contraseña: </td>
-                                <td><input type="password" name="password" id="password"></td>
-                            </tr>
-                        </table>
-                        <br>
-                        <input class="btn btn-primary btn-lg" type="submit" value="Entrar">
-                    </form>
-                    <br>
-                    <p style="font-size: 20px;">¿No tienes cuenta?</p>
-                    <a href="">Crea una aquí</a>
-                </div>
+
             </div>
         </header>
-        
+        <!-- Portfolio Grid Items-->
+
+            <div class="container">
+                
+                <div class="row">
+                    <div class="col-md-5 col-lg-5 mb-5 portfolio-item-color">
+                        <div class=" mx-auto" >
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            </div>
+                            <div clas= "table-responsive-lg">
+                                
+                                <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <th scope="col">Nombre</th>
+                                        <td>Petunia</td>
+                                        </tr>
+                                    <tr>
+                                        <th scope="col">Raza</td>
+                                        <td>Chihuahua</td>
+                                        </tr>
+                                    <tr>
+                                    <th scope="col">Color</td>
+                                    <td>Miel</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col">Sexo</td>
+                                        <td>Femenino</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="col">Edad</td>
+                                            <td>2 años</td>
+                                            </tr>
+                                </tbody>
+                                </table>   
+                                <img class="img-fluid mb-5" src="../assets/img/mascota-encontrada-1.jpg" alt="" /> 
+                                <p>Se perdió el 18 de Septiembre entre las 10 am y 3 pm. No trae collar. Es amistosa y le gusta el pan dulce</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-7 col-lg-7 mb-5 portfolio-item-color">
+                        <div class="portfolio-item mx-auto" >
+                            <div class=" d-flex align-items-center justify-content-center h-100 w-200">
+                            </div>
+                            <img class="img-fluid mapDiv" src="../assets/img/map.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
         <!-- Footer-->
         <footer class="footer text-center">
             <div class="container">
@@ -110,9 +137,22 @@
         <div class="copyright py-4 text-center text-white">
             <div class="container"><small>Copyright © Salvando Huellitas</small></div>
         </div>
-
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+        <div class="scroll-to-top d-lg-none position-fixed">
+            <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
+        </div>
+        <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-        <script src="../js/scripts.js"></script> 
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
     </body>
+    
+</main>
+
 </html>

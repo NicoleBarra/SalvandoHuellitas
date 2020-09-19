@@ -7335,9 +7335,6 @@ svg {
   overflow: hidden;
   vertical-align: middle; }
 
-table {
-  border-collapse: collapse; }
-
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -15192,6 +15189,9 @@ h5 {
   color: black;
   background-color: #fadbc7; }
 
+.mapDiv {
+  margin-top: 1rem; }
+
 /* E s t i l o s __ N a v B a r */
 /* T A G ' S  __ E N __ M O D I F I C A C I Ó N
 ♥ <a>
@@ -15281,6 +15281,19 @@ C L A S E S __ E N __ M O  D I F I C A C I Ó N
     font-style: italic;
     font-weight: 600; }
 
+/* E s t i l o s __ C a r d s */
+/* 
+C L A S E S __ E N __ M O  D I F I C A C I Ó N
+♡ .cards
+*/
+/* E s t i l o s __ V a r i a b l e s */
+/* V A R I A B L E S */
+/* C O L O R E S __ S A L V A N D O __ H U E L L I T A S*/
+.perdidosCards .card {
+  background-color: #ffcc99 !important; }
+  .perdidosCards .card .card-body {
+    height: 350px !important; }
+
 /* E s t i l o s __ C h a t */
 body, html {
   height: 100%;
@@ -15289,99 +15302,99 @@ body, html {
   background: -webkit-linear-gradient(to right, #fadbc7, #ffcc99, #c28378);
   background: linear-gradient(to right, #fadbc7, #ffcc99, #c28378); }
 
-.chat {
+.chatDiv .chat {
   margin-top: auto;
   margin-bottom: auto; }
 
-.card {
+.chatDiv .card {
   height: 100%;
   border-radius: 15px !important;
   position: fixed; }
 
-.contacts_body {
+.chatDiv .contacts_body {
   padding: 0.75rem 0 !important;
   overflow-y: auto;
   white-space: nowrap; }
 
-.msg_card_body {
+.chatDiv .msg_card_body {
   overflow-y: auto; }
 
-.card-header {
+.chatDiv .card-header {
   border-radius: 15px 15px 0 0 !important;
   border-bottom: 0 !important; }
 
-.card-footer {
+.chatDiv .card-footer {
   border-radius: 0 0 15px 15px !important;
   border-top: 0 !important; }
 
-.container {
+.chatDiv .container {
   align-content: center; }
 
-.search {
+.chatDiv .search {
   border-radius: 15px 0 0 15px !important;
   background-color: rgba(0, 0, 0, 0.3) !important;
   border: 0 !important;
   color: white !important; }
 
-.search:focus {
+.chatDiv .search:focus {
   box-shadow: none !important;
   outline: 0px !important; }
 
-.type_msg {
+.chatDiv .type_msg {
   background-color: rgba(231, 130, 130, 0.247) !important;
   border: 0 !important;
   color: black !important;
   height: 60px !important;
   overflow-y: auto; }
 
-.type_msg:focus {
+.chatDiv .type_msg:focus {
   box-shadow: none !important;
   outline: 0px !important; }
 
-.attach_btn {
+.chatDiv .attach_btn {
   border-radius: 15px 0 0 15px !important;
   background-color: rgba(231, 130, 130, 0.432) !important;
   border: 0 !important;
   color: white !important;
   cursor: pointer; }
 
-.send_btn {
+.chatDiv .send_btn {
   border-radius: 0 15px 15px 0 !important;
   background-color: rgba(231, 130, 130, 0.432) !important;
   border: 0 !important;
   color: white !important;
   cursor: pointer; }
 
-.search_btn {
+.chatDiv .search_btn {
   border-radius: 0 15px 15px 0 !important;
   background-color: rgba(0, 0, 0, 0.3) !important;
   border: 0 !important;
   color: white !important;
   cursor: pointer; }
 
-.active {
+.chatDiv .active {
   background-color: rgba(0, 0, 0, 0.3); }
 
-.user_img {
+.chatDiv .user_img {
   height: 70px;
   width: 70px;
   border: 1.5px solid #f5f6fa; }
 
-.user_img_msg {
+.chatDiv .user_img_msg {
   height: 40px;
   width: 40px;
   border: 1.5px solid #f5f6fa; }
 
-.img_cont {
+.chatDiv .img_cont {
   position: relative;
   height: 70px;
   width: 70px; }
 
-.img_cont_msg {
+.chatDiv .img_cont_msg {
   height: 40px;
   width: 40px; }
 
-.online_icon {
+.chatDiv .online_icon {
   position: absolute;
   height: 15px;
   width: 15px;
@@ -15391,23 +15404,23 @@ body, html {
   right: 0.4em;
   border: 1.5px solid white; }
 
-.offline {
+.chatDiv .offline {
   background-color: #c23616 !important; }
 
-.user_info {
+.chatDiv .user_info {
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 15px; }
 
-.user_info span {
+.chatDiv .user_info span {
   font-size: 20px;
   color: black; }
 
-.user_info p {
+.chatDiv .user_info p {
   font-size: 10px;
   color: rgba(255, 255, 255, 0.6); }
 
-.msg_cotainer {
+.chatDiv .msg_cotainer {
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 10px;
@@ -15416,7 +15429,7 @@ body, html {
   padding: 10px;
   position: relative; }
 
-.msg_cotainer_send {
+.chatDiv .msg_cotainer_send {
   margin-top: auto;
   margin-bottom: auto;
   margin-right: 10px;
@@ -15425,24 +15438,24 @@ body, html {
   padding: 10px;
   position: relative; }
 
-.msg_time {
+.chatDiv .msg_time {
   position: absolute;
   left: 0;
   bottom: -15px;
   color: black;
   font-size: 10px; }
 
-.msg_time_send {
+.chatDiv .msg_time_send {
   position: absolute;
   right: 0;
   bottom: -15px;
   color: black;
   font-size: 10px; }
 
-.msg_head {
+.chatDiv .msg_head {
   position: relative; }
 
-.action_menu {
+.chatDiv .action_menu {
   z-index: 1;
   position: absolute;
   padding: 15px 0;
@@ -15453,23 +15466,55 @@ body, html {
   right: 15px;
   display: none; }
 
-.action_menu ul {
+.chatDiv .action_menu ul {
   list-style: none;
   padding: 0;
   margin: 0; }
 
-.action_menu ul li {
+.chatDiv .action_menu ul li {
   width: 100%;
   padding: 10px 15px;
   margin-bottom: 5px; }
 
-.action_menu ul li i {
+.chatDiv .action_menu ul li i {
   padding-right: 10px; }
 
-.action_menu ul li:hover {
+.chatDiv .action_menu ul li:hover {
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0.2); }
 
 @media (max-width: 576px) {
-  .contacts_card {
+  .chatDiv .contacts_card {
     margin-bottom: 15px !important; } }
+
+/* E s t i l o s __ S U C C E S S */
+/*
+C L A S E S __ E N __ M O  D I F I C A C I Ó N
+♡ .success-cases
+*/
+/* E s t i l o s __ V a r i a b l e s */
+/* V A R I A B L E S */
+/* C O L O R E S __ S A L V A N D O __ H U E L L I T A S*/
+/* E D I C I Ó N    C A R O U S E L*/
+.success-cases {
+  background: -webkit-linear-gradient(to right, #fadbc7, #ffcc99, #c28378);
+  background: linear-gradient(to right, #fadbc7, #ffcc99, #c28378); }
+  .success-cases h2 {
+    color: #17202A !important; }
+  .success-cases img {
+    height: 40em; }
+  .success-cases .overlay {
+    position: absolute;
+    top: 0;
+    left: 7em;
+    right: 0;
+    background-color: #fadbc7;
+    opacity: 0.9;
+    overflow: hidden;
+    width: 80%;
+    height: 0;
+    transition: .5s ease; }
+  .success-cases .container:hover .overlay {
+    height: 15%; }
+  .success-cases .testimonio {
+    size: 2em; }

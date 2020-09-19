@@ -43,6 +43,8 @@ h5 {
     letter-spacing: 2px;
 }
 
+    
+
 @for $colIndex from 1 through length($my-colors) {
     .degrade_line#{$colIndex} {
       color: unquote(nth($my-colors, $colIndex));
@@ -59,4 +61,8 @@ h5 {
 
 .btn-primary{
     @extend %button_personalization;
+}
+
+.mapDiv{
+    margin-top: 1rem;
 }
