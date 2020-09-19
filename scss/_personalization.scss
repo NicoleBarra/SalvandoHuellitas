@@ -4,9 +4,7 @@
 */
 /* E s t i l o s __ V a r i a b l e s */
 $pageSize: 1200;
-
 @import "variables";
-
 @function numero($num: 1){
     @return $pageSize/6*$num;
 }
