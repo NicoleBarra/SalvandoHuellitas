@@ -5,9 +5,11 @@ C L A S E S __ E N __ M O  D I F I C A C I Ó N
 /* E s t i l o s __ V a r i a b l e s */
 @import "variables";
 
-.card {
-    background-color: $colorSecundarioSalvandoHuellitas !important;
-}
-.card-body {
-    height: 350px !important;
+.perdidosCards  {
+    .card {
+        background-color: $colorSecundarioSalvandoHuellitas !important;
+        .card-body {
+            height: 350px !important;
+        }
+    }
 }
