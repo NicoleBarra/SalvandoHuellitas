@@ -40,15 +40,11 @@ h5 {
     font-weight: numero(2);
     letter-spacing: 2px;
 }
-
-    
-
 @for $colIndex from 1 through length($my-colors) {
     .degrade_line#{$colIndex} {
       color: unquote(nth($my-colors, $colIndex));
     }
   }
-
 @mixin shadow($width: 5px) {
     boder-style: solid;
     border-width: 0 1px $width 1px;
@@ -58,7 +54,6 @@ h5 {
     color: black;
     background-color: $colorPrimarioSalvandoHuellitas;
 }
-
 .btn-primary{
     @extend %button_personalization;
     @include shadow();
